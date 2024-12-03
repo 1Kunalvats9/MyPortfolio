@@ -7,7 +7,7 @@ import gr from "../Assets/gr.png"
 import gfg from "../Assets/goforgold.png"
 import hj from "../Assets/healthyjeevan.png"
 import gs from "../Assets/img2gunshot.png"
-import ntx from "../Assets/img3neutonix.png"
+import ntx from "../Assets/newtonix.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
