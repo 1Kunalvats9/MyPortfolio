@@ -8,24 +8,33 @@ import gfg from "../Assets/goforgold.png"
 import hj from "../Assets/healthyjeevan.png"
 import gs from "../Assets/img2gunshot.png"
 import ntx from "../Assets/newtonix.png"
+import gm from '../Assets/gem.png'
 
 gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
-  {
-    title: 'Gaming Redefined',
-    description: 'A modern gaming website built with React and GSAP, featuring smooth scroll animations and contemporary UI/UX design.',
-    image: gr,
-    technologies: ['React', 'GSAP', 'Tailwind CSS'],
-    liveUrl: 'https://gaming-redefined.vercel.app',
-    githubUrl: 'https://github.com/1kunalvats9'
-  },
   {
     title: 'GoforGold',
     description: 'A dedicated platform for NEWTON School of Technology\'s ICPC bootcamp, helping Indian developers aim for gold.',
     image: gfg,
     technologies: ['React', 'Node.js', 'MongoDB'],
     liveUrl: 'https://www.goforgold.in',
+    githubUrl: 'https://github.com/1kunalvats9'
+  },
+  {
+    title: 'Gemini',
+    description:"The Gemini project is a tool built using Gemini's free API that allows users to input prompts for any information they want to know. The application fetches relevant results from the Gemini platform's data and presents them to the user based on the query. It leverages Gemini's API to provide accurate and real-time information, enabling users to interact with the platform easily and access the data they need through simple prompts",
+    image: gm,
+    technologies: ['React','Gemini-API','CSS'],
+    liveUrl: 'https://gemini-j4kce4x05-our-team-projects.vercel.app/',
+    githubUrl:'https://github.com/1Kunalvats9/geminiClone'
+  },
+  {
+    title: 'Gaming Redefined',
+    description: 'A modern gaming website built with React and GSAP, featuring smooth scroll animations and contemporary UI/UX design.',
+    image: gr,
+    technologies: ['React', 'GSAP', 'Tailwind CSS'],
+    liveUrl: 'https://gaming-redefined.vercel.app',
     githubUrl: 'https://github.com/1kunalvats9'
   },
   {

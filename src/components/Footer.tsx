@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Github, Linkedin, Mail, Heart } from 'lucide-react';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
-
+  const [op,setOp] = useState(false);
   return (
-    <footer className="bg-gray-900 text-gray-300 border-t border-gray-800">
+    <footer id='footer' className="bg-gray-900 text-gray-300 border-t border-gray-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand Section */}
@@ -45,7 +45,7 @@ export function Footer() {
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
+                <a href="#herosec" className="text-gray-400 hover:text-white transition-colors">
                   About
                 </a>
               </li>
@@ -60,9 +60,14 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                <a href="#contact" onClick={(e)=>{e.preventDefault();
+                  setOp((op)=>!op);
+                }} className="text-gray-400 hover:text-white transition-colors">
                   Contact
                 </a>
+               {op && (
+                <a><a className='text-gray-400'>: </a>+91 7878117101</a>
+               )}
               </li>
             </ul>
           </div>

@@ -32,7 +32,7 @@ export function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 pt-20"
     >
       {/* Animated background spheres */}
-      <div className="absolute inset-0 overflow-hidden">
+      <div id='herosec' className="absolute inset-0 overflow-hidden">
         <div className="blur-sphere absolute top-1/4 left-1/4 w-64 h-64 bg-purple-500/30 rounded-full filter blur-3xl"></div>
         <div className="blur-sphere absolute top-1/3 right-1/4 w-96 h-96 bg-blue-500/30 rounded-full filter blur-3xl"></div>
         <div className="blur-sphere absolute bottom-1/4 left-1/3 w-80 h-80 bg-indigo-500/30 rounded-full filter blur-3xl"></div>
@@ -62,7 +62,8 @@ export function Hero() {
               View Projects
             </a>
             <a 
-              href="#contact" 
+              href="#footer" 
+
               className="px-6 py-3 border border-white text-white rounded-lg hover:bg-white/10 transition-colors"
             >
               Contact Me

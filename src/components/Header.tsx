@@ -9,7 +9,7 @@ export function Header() {
           <a href="#home" className="text-xl font-bold text-white">Kunal.dev</a>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
+            <a href="#footer" className="text-gray-300 hover:text-white transition-colors">About</a>
             <a href="#projects" className="text-gray-300 hover:text-white transition-colors">Projects</a>
             <a href="#skills" className="text-gray-300 hover:text-white transition-colors">Skills</a>
             <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
@@ -25,19 +25,19 @@ export function Header() {
               <Github size={20} />
             </a>
             <a 
-              href="www.linkedin.com/in/kunal-vats-b67aa2309" 
+              href="https://www.linkedin.com/in/kunal-vats-b67aa2309" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-300 hover:text-white transition-colors"
             >
               <Linkedin size={20} />
             </a>
-            <a 
+            {/* <a 
               href="mailto:1kunalvats9@gmail.com" 
               className="text-gray-300 hover:text-white transition-colors"
             >
               <Mail size={20} />
-            </a>
+            </a> */}
           </div>
 
           <button className="md:hidden text-white">
