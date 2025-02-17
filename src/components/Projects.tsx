@@ -35,7 +35,7 @@ const projects = [
     image: gr,
     technologies: ['React', 'GSAP', 'Tailwind CSS'],
     liveUrl: 'https://gaming-redefined.vercel.app',
-    githubUrl: 'https://github.com/1kunalvats9'
+    githubUrl: 'https://github.com/1Kunalvats9/Gaming-Redefined'
   },
   {
     title: 'HealthyJeevan',
@@ -43,7 +43,7 @@ const projects = [
     image: hj,
     technologies: ['React', 'YouTube API', 'Tailwind CSS'],
     liveUrl: 'https://www.healthyjeevan.co.in',
-    githubUrl: 'https://github.com/1kunalvats9'
+    githubUrl: 'https://github.com/1Kunalvats9/HealthyJeewanLive'
   },
   {
     title: 'Gunshot Fire Direction Detection',
